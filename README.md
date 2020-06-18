@@ -15,6 +15,14 @@
 
 > A Vue.js project
 
+## 主要的目的就是帮助开发者快速的搞定框架的一些基础配置，不用再花半天的时间去配置基础项
+1.已经配置好 rem 的基础配置，基本标准是iPhone6的 375px
+2.使用的是axios做网络请求，然后基于它做了一些封装 request.js 同时内部还统一做了加载视图的显示和隐藏，
+  settings.js类是存放所有项目中的接口地址
+3.该框架已经配置好 vuex，目录在 src 下的store文件夹下
+4.登录状态的问题使用 js-cookie 处理，登录状态有效时间为2天
+5.vant的使用的是全局引入，如果想按需引入，请参考 vant 文档 https://youzan.github.io/vant/#/zh-CN/quickstart
+
 ## Build Setup
 
 ```bash
